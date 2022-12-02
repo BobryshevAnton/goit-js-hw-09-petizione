@@ -16,3 +16,33 @@ img {
   display: block;
   max-width: 100%;
 }
+.button {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 150px;
+  height: 150px;
+
+  background-color: rgb(228, 228, 228);
+  color: rgb(67, 67, 67);
+
+  opacity: 1;
+  color: rgb(0, 0, 0);
+}
+
+.hiddenOn {
+  opacity: 0.5;
+  color: rgb(197, 197, 197);
+}
+
+.hiddenOff {
+  opacity: 1;
+  color: rgb(4, 4, 4);
+}
+.div_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 650px;
+}
